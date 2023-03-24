@@ -12,6 +12,28 @@ body{
     width: 100%;
     margin: auto;
 }
+
+header{ 
+    width: 100%;
+    background-color: var(--cor1);
+    color: var(--cor4);
+    padding: 0px 0px 0px 0px;
+    height: 300px;   
+}
+.containerR{
+    width: 50%;
+    display: inline;
+    float: left;
+    padding: 8%
+}
+.containerL{
+    
+    
+    height: 100%;
+    float: right;
+    padding-right: 5%;
+}
+
 main{
     background-color: var(--cor3);
     max-width: 1000px;
@@ -21,56 +43,41 @@ main{
     padding: 20px 15px 30px 25px;
     height: 505px;
     overflow: auto;
-
-    
 }
-header{ 
-    width: 100%;
-    background-color: var(--cor1);
-    color: var(--cor4);
-    padding: 25px 0px 0px 0px;
+header >div >h1{
     
-    
-   
-}
-.container{
-    width: auto;
-    display: flex;
-    font-size: 2em;
-    margin:auto;
-    clear: ;
-}
-
-
-header > div> img{
-    
-    width: 15%;
-    
-    
-
-}
-header > div >h1{
-    max-width: 45%;
     padding: 0;
     padding: 0px 0px 0px 25px ;
     margin: 0px 0px 0px 25px;
     font-size: 2.5em;
     text-align: justify;
-    line-height: ;
+    display: list-item;   
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.botao{
+    margin:2% 0% 0% 45%;
+    width: 100px;
+    text-align: center;
+    height: 45px;
+    background-color: var(--cor4);
+    border: 2px solid var(--cor0);
+    border-radius: 10px;
+    font-size: 1.5em;
+    
 }
 
 .nome{
-        font-family:;
+        
     }
 h2{
     color: var(--cor0);
     background-image: linear-gradient(to right,var(--cor4), #3A506B );
     padding-left: 5px;
 }
-a{
-    width: 100px;
-    height: 100px;
-}
+
 
 
 
